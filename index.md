@@ -1,37 +1,12 @@
-## Welcome to GitHub Pages
+# Growth mindest  
 
-You can use the [editor on GitHub](https://github.com/Mohammad-Haroun-97/Reading-notes/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+A growth mindset considered by many people that individuals skills and abilities could be evolved through presistent, hard working and effort; intelligence and talent are simply the best initial beginnings. A growth mindset indicates that these is a desire and passion of learning.  
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Firstly, I will discuss **the most important reminders** to keep myself in a growth mindest that i found it useful and helpful : 
 
-### Markdown
+1. *Criticism*
+2. *Success of others*
+3. *Obstacles*  
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![Growth mindest](https://www.strengthscope.com/wp-content/uploads/2021/01/Growth-v-fixed-mindset-t.jpg)
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Mohammad-Haroun-97/Reading-notes/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
