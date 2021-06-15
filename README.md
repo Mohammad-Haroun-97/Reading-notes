@@ -2,7 +2,8 @@
 
 | Name | Link |  
 |-----------------|:-------------|
-|        Read02         |    [Read02]  ()        |    
-| GrowthMindest       |   [GrowthMindest]()        |             
+|        Read02         |    [Read02]  (https://mohammad-haroun-97.github.io/Reading-notes/Read02)        |    
+| GrowthMindest       |   [GrowthMindest](https://mohammad-haroun-97.github.io/Reading-notes/Growthmindset)        |             
 |       Read01          |   [Read01](https://mohammad-haroun-97.github.io/Reading-notes/Read01)|         
     
+
