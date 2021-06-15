@@ -1,14 +1,8 @@
-# Reading-notes
+#### My name is Mohammad Haroun, I have graduated from university of jordan last year on the 15th of june,2020 as a mechanical Engineer and i am willing to continue my education in software field.
 
-## Growth mindest  
-
-A growth mindset considered by many people that individuals skills and abilities could be evolved through presistent, hard working and effort; intelligence and talent are simply the best initial beginnings. A growth mindset indicates that these is a desire and passion of learning.  
-
-Firstly, I will discuss **the most important reminders** to keep myself in a growth mindest that i found it useful and helpful : 
-
-1. *Criticism*
-2. *Success of others*
-3. *Obstacles*  
-
-![Growth mindest](https://www.strengthscope.com/wp-content/uploads/2021/01/Growth-v-fixed-mindset-t.jpg)
-
+| Name | Link |  
+|-----------------|:-------------|
+|        Read02         |    [Read02]  ()        |    
+| GrowthMindest       |   [GrowthMindest]()        |             
+|       Read01          |   [Read01](https://mohammad-haroun-97.github.io/Reading-notes/Read01)|         
+    
