@@ -49,3 +49,77 @@ Unary plus (+)	Unary operator. Attempts to convert the operand to a number, if i
 * Logical OR (||)	expr1 || expr2	Returns expr1 if it can be converted to true; otherwise, returns expr2. Thus, when used with Boolean values, || returns true if either operand is true; if both are false, returns false.  
 * Logical NOT (!)	!expr	Returns false if its single operand that can be converted to true; otherwise, returns true.
 
+
+
+
+
+  
+    
+      
+ # Loops and iteration
+ 
+ Loops offer a quick and easy way to do something repeatedly. This chapter of the JavaScript Guide introduces the different iteration statements available to JavaScript.
+
+You can think of a loop as a computerized version of the game where you tell someone to take X steps in one direction, then Y steps in another. For example, the idea "Go five steps to the east" could be expressed this way as a loop:
+
+
+for (let step = 0; step < 5; step++) {
+  // Runs 5 times, with values of step 0 through 4.
+  console.log('Walking east one step');
+}
+## The statements for loops provided in JavaScript are: 
+
+* for statement  
+* do...while statement
+* while statement
+* labeled statement
+* break statement
+* continue statement
+* for...in statement
+* for...of statement  
+
+## for statement
+A for loop repeats until a specified condition evaluates to false. The JavaScript for loop is similar to the Java and C for loop.
+
+A for statement looks as follows:
+
+for ([initialExpression]; [conditionExpression]; [incrementExpression])
+  statement
+Copy to Clipboard
+***When a for loop executes, the following occurs:***  
+
+1. The initializing expression initialExpression, if any, is executed. This expression usually initializes one or more loop counters, but the syntax allows an expression of any degree of complexity. This expression can also declare variables.
+2. The conditionExpression expression is evaluated. If the value of conditionExpression is true, the loop statements execute. If the value of condition is false, the for loop terminates. (If the condition expression is omitted entirely, the condition is assumed to be true.)
+3. The statement executes. To execute multiple statements, use a block statement ({ ... }) to group those statements.
+4. If present, the update expression incrementExpression is executed.
+Control returns to Step 2.
+
+## while statement
+A while statement executes its statements as long as a specified condition evaluates to true. A while statement looks as follows:
+
+while (condition)
+  statement
+Copy to Clipboard
+If the condition becomes false, statement within the loop stops executing and control passes to the statement following the loop.
+
+The condition test occurs before statement in the loop is executed. If the condition returns true, statement is executed and the condition is tested again. If the condition returns false, execution stops, and control is passed to the statement following while.
+
+To execute multiple statements, use a block statement ({ ... }) to group those statements.
+
+***Example 1***
+The following while loop iterates as long as n is less than 3:
+
+*let n = 0;
+let x = 0;
+while (n < 3) {
+  n++;
+  x += n;
+}*
+
+
+
+
+
+
+
+      
