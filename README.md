@@ -7,13 +7,13 @@
 
 | Name | Link |  
 |-----------------|:-------------|
-|  Read01  | [Read01](https://mohammad-haroun-97.github.io/Reading-notes/Read01)        |    
-|       Read02          |   [Read02](https://mohammad-haroun-97.github.io/Reading-notes/Read02)|
-|  Read03  | [Read03](https://mohammad-haroun-97.github.io/Reading-notes/Read03)        |
-|  Read04  | [Read04](https://mohammad-haroun-97.github.io/Reading-notes/Read04)        |
-|  Read05  | [Read05](https://mohammad-haroun-97.github.io/Reading-notes/Read05)        |
-|  Read06  | [Read06](https://mohammad-haroun-97.github.io/Reading-notes/Read06)        |
-|  Read07  | [Read07](https://mohammad-haroun-97.github.io/Reading-notes/Read07)        |         
+|  Read01  | [Read01](https://mohammad-haroun-97.github.io/Reading-notes/Read01.md)        |    
+|       Read02          |   [Read02](https://mohammad-haroun-97.github.io/Reading-notes/Read02.md)|
+|  Read03  | [Read03](https://mohammad-haroun-97.github.io/Reading-notes/Read03.md)        |
+|  Read04  | [Read04](https://mohammad-haroun-97.github.io/Reading-notes/Read04.md)        |
+|  Read05  | [Read05](https://mohammad-haroun-97.github.io/Reading-notes/Read05.md)        |
+|  Read06  | [Read06](https://mohammad-haroun-97.github.io/Reading-notes/Read06.md)        |
+|  Read07  | [Read07](https://mohammad-haroun-97.github.io/Reading-notes/Read07.md)        |         
     
 
 
