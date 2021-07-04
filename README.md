@@ -7,13 +7,13 @@
 
 | Name | Link |  
 |-----------------|:-------------|
-|  Read01  | [Read01](https://mohammad-haroun-97.github.io/Reading-notes/Reading-102/Read01.md)        |    
-|       Read02          |   [Read02](https://mohammad-haroun-97.github.io/Reading-notes/Read02.md)|
-|  Read03  | [Read03](https://mohammad-haroun-97.github.io/Reading-notes/Reading-102/Read03.md)        |
-|  Read04  | [Read04](https://mohammad-haroun-97.github.io/Reading-notes/Reading-102/Read04.md)        |
-|  Read05  | [Read05](https://mohammad-haroun-97.github.io/Reading-notes/Reading-102/Read05.md)        |
-|  Read06  | [Read06](https://mohammad-haroun-97.github.io/Reading-notes/Reading-102/Read06.md)        |
-|  Read07  | [Read07](https://mohammad-haroun-97.github.io/Reading-notes/Reading-102/Read07.md)        |         
+|  Read01  | [Read01](https://mohammad-haroun-97.github.io/Reading-notes/Reading-102/Read01)        |    
+|       Read02          |   [Read02](https://mohammad-haroun-97.github.io/Reading-notes/Reading-102/Read02)|
+|  Read03  | [Read03](https://mohammad-haroun-97.github.io/Reading-notes/Reading-102/Read03)        |
+|  Read04  | [Read04](https://mohammad-haroun-97.github.io/Reading-notes/Reading-102/Read04)        |
+|  Read05  | [Read05](https://mohammad-haroun-97.github.io/Reading-notes/Reading-102/Read05)        |
+|  Read06  | [Read06](https://mohammad-haroun-97.github.io/Reading-notes/Reading-102/Read06)        |
+|  Read07  | [Read07](https://mohammad-haroun-97.github.io/Reading-notes/Reading-102/Read07)        |         
     
 
 
