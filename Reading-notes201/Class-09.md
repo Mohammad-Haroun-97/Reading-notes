@@ -104,6 +104,8 @@ With double quotes:
 ```
 
 ## Common HTML Events
+
+
 Here is a list of some common HTML events:
 
 * Event	Description
@@ -112,11 +114,13 @@ Here is a list of some common HTML events:
 * onmouseover	The user moves the mouse over an HTML element
 * onmouseout	The user moves the mouse away from an HTML element
 * onkeydown	The user pushes a keyboard key
-* onload	The browser has finished loading the page  
+* onload	The browser has finished loading the page    
+
+
 
 ## What can JavaScript Do?  
   
-  
+
 Event handlers can be used to handle and verify user input, user actions, and browser actions:
 
 * Things that should be done every time a page loads
