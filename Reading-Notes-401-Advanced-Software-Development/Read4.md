@@ -1,66 +1,136 @@
-# Code 401 Class 04 Reading notes:
+# Reading Notes Class 04 - Data Modeling
 
-## Review, Research, and Discussion
+![](https://www.essentialsql.com/wp-content/uploads/2021/11/Database-Table-Data-Modeling.png?ezimgfmt=rs:455x336/rscb23/ng:webp/ngcb23)  
 
-### Name 3 advantages to Test Driven Development
-- You are able to identify the errors and problems quickly.
-- Writing the tests first requires you to really consider what do you want from the code.
-- TDD creates code that is maintainable, flexible, and easily extensible.
+### + Name 3 advantages to Test Driven Development
 
-### In what case would you need to use beforeEach() or afterEach() in a test suite?
-The difference is beforeEach()/afterEach() automatically run before and after each tests, which 1. removes the explicit calls from the tests themselves, and 2. invites inexperienced users to share state between tests.
-### What is one downside of Test Driven Development
-No silver bullet â€“ Tests help to seek out bugs, but they can not find bugs that you simply introduce within the test code and in implementation code.
-### Whats the primary difference between ES6 Classes and Constructor/Prototype Classes?
- The most important difference between class- and prototype-based inheritance is that a class defines a type which can be instantiated at runtime, whereas a prototype is itself an object instance.
-### Why REST?
-One of the key advantages of REST APIs is that they provide a great deal of flexibility. Data is not tied to resources or methods, so REST can handle multiple types of calls, return different data formats and even change structurally with the correct implementation of hypermedia.
-## Document the following Vocabulary Terms
+[https://www.codica.com/blog/test-driven-development-benefits/](https://www.codica.com/blog/test-driven-development-benefits/)
+
+1. Better program design and higher code quality
+2. Detailed project documentation
+3. TDD reduces the time required for project development
+
+### + In what case would you need to use `beforeEach()` or `afterEach()` in a test suite?
+
+[https://jestjs.io/docs/setup-teardown](https://jestjs.io/docs/setup-teardown)
+
+They are methods to induce and remove through invoking a function call a change of your data and/or programming setup (put fake data, test it remove it - or put console.spy test and remove it). These methods are great when you need to do something repeatedly for lot’s of tests. You can invoke other functions inside a beforeEach or afterEach as a callback to test things asynchronously.
+
+### + What is one downside of Test Driven Development
+
+[https://subscription.packtpub.com/book/application_development/9781785880735/1/ch01lvl1sec12/disadvantages-of-tdd](https://subscription.packtpub.com/book/application_development/9781785880735/1/ch01lvl1sec12/disadvantages-of-tdd)
+
+- TDD is time consuming and costly since a significant time is spend on refactoring and rewriting code.
+- TDD focuses on passing tests which is not exactly the same as correctness. incorrect test setup can lead to bad results not being noticed (yay we passed the test, but the product doesnt meet requirements)
+- Tests got to be maintained when requirements change
+
+### + What’s the primary difference between ES6 Classes and Constructor/Prototype Classes?
+
+[https://www.toptal.com/javascript/es6-class-chaos-keeps-js-developer-up](https://www.toptal.com/javascript/es6-class-chaos-keeps-js-developer-up)
+
+A ES6 class defines a type that can be instantiated while prototype classes is an object instance. The best way to think of this is that the ES6 class will be the same same as its prototype, not a copy.
+
+### + Why REST?
+
+[https://www.mulesoft.com/resources/api/restful-api#:~:text=One%20of%20the%20key%20advantages,the%20correct%20implementation%20of%20hypermedia.](https://www.mulesoft.com/resources/api/restful-api#:~:text=One%20of%20the%20key%20advantages,the%20correct%20implementation%20of%20hypermedia.)
+
+One of the key advantages of REST APIs is that they provide a great deal of flexibility. Data is not tied to resources or methods, so REST can handle multiple types of calls, return different data formats and even change structurally with the correct implementation of hypermedia. This flexibility allows developers to build an API that meets your needs while also meeting the needs of very diverse customers.
+
+<hr>
+
+### Document the following vocabulary words
+
+### + functional programming:
 
 
-**functional programming**
-In computer science, functional programming is a programming paradigm where programs are constructed by applying and composing functions.
+[https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0)
 
-This allows programs to be written in a declarative and composable style, where small functions are combined in a modular manner.
+process of building software by composing pure functions, avoiding shared state, mutable data, and side-effects.
 
-**object-oriented programming (OOP)**
-Object-oriented programming (OOP) is a computer programming model that organizes software design around data, or objects, rather than functions and logic. An object can be defined as a data field that has unique attributes and behavior.
+### + object-oriented programming:
 
-**class**
-A JavaScript class is a blueprint for creating objects. A class encapsulates data and functions that manipulate data. Unlike other programming languages such as Java and C#, JavaScript classes are syntactic sugar over the prototypal inheritance.
+[https://www.educative.io/blog/object-oriented-programming](https://www.educative.io/blog/object-oriented-programming)
 
-**super**
-What is super () in JavaScript?
-The super keyword is used to access and call functions on an object's parent. The super. prop and super[expr] expressions are valid in any method definition in both classes and object literals.
+programming paradigm that relies on the concept of classes and objects. It is used to structure a software program into simple, reusable pieces of code blueprints (usually called classes), which are used to create individual instances of objects.
 
-**this**
-The value that this stores is the current execution context of the JavaScript program. Thus, when used inside a function this's value will change depending on how that function is defined, how it is invoked and the default execution context.
+### + class:
 
-**Test Driven Development (TDD)**
-Test Driven Development (TDD) is software development approach in which test cases are developed to specify and validate what the code will do.
+[https://www.javascripttutorial.net/es6/javascript-class/](https://www.javascripttutorial.net/es6/javascript-class/)
 
-**Jest**
-Jest is a JavaScript testing framework designed to ensure correctness of any JavaScript codebase. It allows you to write tests with an approachable, familiar and feature-rich API that gives you results quickly.
+abstract blueprint used to create more objects
 
-**Continuous Integration (CI)**
-CI and CD stand for continuous integration and continuous delivery/continuous deployment. In very simple terms, CI is a modern software development practice in which incremental code changes are made frequently and reliably.
+### + super:
 
-**REST**
-The rest parameter syntax allows a function to accept an indefinite number of arguments as an array, providing a way to represent variadic functions in JavaScript.
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super)
 
-**Data Model**
-JSON objects and arrays in the ABL are based on the objects and arrays of the JavaScript data model. JavaScript objects are associative arrays. Object property names can be any Unicode string. Properties and their values can be added, changed, or deleted at runtime.
+Super is used to gain access and call functions on an object’s parent.
 
-## Preview
+### + this:
 
+[https://www.w3schools.com/js/js_this.asp](https://www.w3schools.com/js/js_this.asp)
+
+This changes depending how a function is called. But typically refers to the object it belongs to.
+
+### + Test Driven Development:
+
+[https://www.codica.com/blog/test-driven-development-benefits/](https://www.codica.com/blog/test-driven-development-benefits/)
+
+software development practice enabling developers to create proper specifications about how their code should be written and implemented.
+
+### + jest:
+
+[https://jestjs.io/](https://jestjs.io/)
+
+framework used for testing
+
+### + continuous integration:
+
+[https://www.cloudbees.com/continuous-delivery/continuous-integration](https://www.cloudbees.com/continuous-delivery/continuous-integration)
+
+This is where developers frequently integrate code into a shared repo. This can be done multiple times a day.
+
+### + REST:
+
+[https://en.wikipedia.org/wiki/Representational_state_transfer](https://en.wikipedia.org/wiki/Representational_state_transfer)
+
+Representational state transfer. It is an application programming interface. GET, POST, PUT, DELETE
+
+### + Data Model:
+
+[https://en.wikipedia.org/wiki/Data_model](https://en.wikipedia.org/wiki/Data_model)
+
+organizes elements of data and standardizes how they relate to one another and to the properties of real-world entities
+
+<hr>
 
 ### Which 3 things had you heard about previously and now have better clarity on?
-- Mocking
-- Jest
-- REST
+
+- TDD
+- class, super
+- REST, CRUD
+
 ### Which 3 things are you hoping to learn more about in the upcoming lecture/demo?
-- object-oriented programming (OOP)
-- psql
--postgres
+
+- MongoDB
+- Functional programming
+
 ### What are you most excited about trying to implement or see how it works?
-Link Database that has all types of info on postgres and have different ways to access it.
+
+- **_MongoDb_**
+- **_MongoDb - deployed with Atlas_**
+- **_how to make ROUTES dynamic (so we don`t have to have a seperate page with pretty much the same code for different routes)_**
+
+### SQL or NO SQL
+![](https://www.essentialsql.com/wp-content/uploads/2014/06/DataModel-Relations1.png?ezimgfmt=ng:webp/ngcb23)
+
+
+- https://www.youtube.com/watch?v=ZS_kXvOeQ5Y
+
+- https://www.youtube.com/watch?v=pWbMrx5rVBE
+
+- https://www.thegeekstuff.com/2014/01/sql-vs-nosql-db/?utm_source=tuicool
+- https://highlyscalable.wordpress.com/2012/03/01/nosql-data-modeling-techniques/
+
+<hr>
+
+## Linked List
